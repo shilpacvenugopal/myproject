@@ -62,31 +62,31 @@ Follow these steps to set up the  project on your local machine.
    ```
 
 8. **Usage**
- -  How to use the API endpoints for Table2:
-http://127.0.0.1:8000/dashboard/dashboard/
-Methods
-    GET:  For reading
-   POST:  For creation
-     PUT: For updation
-    DELETE: For deletion
+-** How to use the API endpoints for Table2**
+-http://127.0.0.1:8000/dashboard/dashboard/
+- Methods
+ - GET:  For reading
+- POST:  For creation
+-  PUT: For updation
+ -   DELETE: For deletion
 
 - Importing data to Table2 from CSV or Excel:
-  After running the command
+-  After running the command
  ```bash
    python manage.py runserver
    ```
-in broswer search http://localhost:8000/admin/ 
-in dashboard open table2 and import the file 
+-in broswer search http://localhost:8000/admin/ 
+-in dashboard open table2 and import the file 
 - Image upload with conversion to webp format:
-After running the command
+-After running the command
  
-in broswer search http://localhost:8000/admin/ 
-in dashboard open imagemodel and add the image
+-in broswer search http://localhost:8000/admin/ 
+-in dashboard open imagemodel and add the image
 
 - Token authentication API with Django Rest Framework:
-  Endpoint: http://127.0.0.1:8000/dashboard/api/token-auth/
-  Method: POST
-  Data parameters: username, password
+-  Endpoint: http://127.0.0.1:8000/dashboard/api/token-auth/
+-  Method: POST
+-  Data parameters: username, password
 
 ## Dependencies:
 - Django
