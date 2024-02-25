@@ -77,9 +77,12 @@ Follow these steps to set up the  project on your local machine.
    ```
 -in broswer search http://localhost:8000/admin/ 
 -in dashboard open table2 and import the file 
+
 10. **Image upload with conversion to webp format**
--After running the command
- 
+ After running the command
+ ```bash
+   python manage.py runserver
+   ```
 -in broswer search http://localhost:8000/admin/ 
 -in dashboard open imagemodel and add the image
 
